@@ -1,16 +1,18 @@
 import Head from 'next/head'
 
+import { Container } from '../styles/pages/'
+
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Bin2Dec</title>
       </Head>
 
-      <main>
+      <Container>
         <h1>Binary to Decimal</h1>
-      </main>
-    </div>
+      </Container>
+    </>
   )
 }
 
