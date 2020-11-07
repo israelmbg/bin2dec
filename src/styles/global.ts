@@ -16,6 +16,11 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: #444;
+    background: linear-gradient(
+      116.16deg,
+      #c0c0c5 -1.12%,
+      rgba(255, 255, 255, 0) 124.52%
+    ),
+    #333337;
   }
 `
