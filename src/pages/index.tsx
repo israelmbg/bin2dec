@@ -10,7 +10,17 @@ const Home: React.FC = () => {
       </Head>
 
       <Container>
-        <h1>Binary to Decimal</h1>
+        <div className="container">
+          <div>
+            <label htmlFor="binary">Binary</label>
+            <input type="text" placeholder="Type a value" />
+
+            <label htmlFor="Decimal">Decimal</label>
+            <input type="text" disabled value="kkkkkk" />
+          </div>
+
+          <button>Convert</button>
+        </div>
       </Container>
     </>
   )
