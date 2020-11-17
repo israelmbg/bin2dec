@@ -43,7 +43,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
 
           <link
-            href="http://fonts.googleapis.com/css?family=Inter:700"
+            href="https://fonts.googleapis.com/css?family=Inter:700"
             rel="stylesheet"
           />
         </Head>
